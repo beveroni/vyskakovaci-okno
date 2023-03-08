@@ -1,14 +1,25 @@
+html {
+  background-color: rgb(171, 211, 247);
+}
+
 body {
   font: 16px/1.5 sans-serif;
+}
+
+p {
+  font-style: italic;
 }
 
 .modal {
   width: 50vw;
   height: 40vh;
-  border: 15px solid #5bcef3;
+  border: 15px solid #06495f;
   background-color: #b4eafb;
   border-radius: 10px;
-  font-size: 20px;
+  font-size: 15px;
+  text-align: center;
+  position: relative;
+  left: 20%;
 }
 
 button {
@@ -20,11 +31,60 @@ button {
   color: black;
   width: 30px;
   border-radius: 3px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }
 
 .ok {
   background-color: #28a745;
   color: white;
+  position: absolute;
+  bottom: 50px;
+  left: 50%
 }
 
 /* sem přijdou tvoje styly */
+.sticky {
+  width: 50vw;
+  height: 40vh;
+  border: 15px solid #3a45c0;
+  background-color: #b4eafb;
+  border-radius: 10px;
+  font-size: 30px;
+  position: sticky;
+  z-index: 1;
+  left: 20%;
+  top: 30px;
+}
+
+.fixed {
+  width: 50vw;
+  height: 40vh;
+  border: 15px solid #5bcef3;
+  background-color: #b4eafb;
+  border-radius: 5px;
+  font-size: 30px;
+  position: fixed;
+  z-index: 1;
+  left: 25vw;
+  top: 20vh;
+}
+
+.pomocnik {
+  color: rgb(0, 0, 0);
+  background-color: rgb(243, 240, 80);
+  width: 250px;
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+}
+
+a {
+  color: #3a45c0;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(255, 0, 157);
+}
